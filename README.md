@@ -27,3 +27,6 @@ Navigate to proxy.js location then run:
 ```
 node proxy.js
 ```
+
+### Optional
+Use `tmux` to run the proxy in headless mode.
