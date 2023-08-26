@@ -26,7 +26,7 @@ npm -v
 ```
 npm install express request
 ```
-4. Start proxy <br /> 
+4. Start proxy <br /><br />  
 Navigate to proxy.js location then run:
 ```
 node proxy.js
