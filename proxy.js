@@ -9,6 +9,12 @@ const PORT = 8080;
 // set allowed domain (only 1)
 const ALLOWED_DOMAIN = 'airmaestro.cobhamspecialmission.com.au';
 
+// log IP addresses
+app.use((req, res, next) => {
+    console.log(`Request from IP address: ${req.ip}`);
+    next();
+  });
+
 // setup url pattern (/proxy/wildcard)
 app.use('/proxy/*', (req, res) => {
   let targetUrl = req.params[0];
