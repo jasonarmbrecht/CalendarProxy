@@ -7,7 +7,7 @@
 - Node.js
 - NPM
     - Express.js to create routes.
-    - Requests library for http functions.
+    - Request library for http functions.
 - proxy.js in its own folder in home dir.
 
 1. Install node and npm
