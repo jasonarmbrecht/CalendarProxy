@@ -1,7 +1,7 @@
 # Calendar Proxy
 
-Customised for work purposes.
-Set up to use port 8080, but you can adjust as needed.
+Customised for work purposes.<br />  
+It is set up to use port 8080, but you can adjust as needed.
 
 ### How to install
 
