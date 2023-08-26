@@ -3,10 +3,10 @@
 ### How to install
 
 **Requirements**
--Linux (Ubuntu used below)
--Node.js
--NPM
--proxy.js in its own folder in home dir.
+- Linux (Ubuntu used below)
+- Node.js
+- NPM
+- proxy.js in its own folder in home dir.
 
 1. Install node and npm
 ```
