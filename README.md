@@ -1,5 +1,7 @@
 # Calendar Proxy
 
+Customised for work purposes.
+
 ### How to install
 
 **Requirements**
@@ -24,7 +26,7 @@ npm -v
 ```
 npm install express request
 ```
-4. Start proxy 
+4. Start proxy\ 
 Navigate to proxy.js location then run:
 ```
 node proxy.js
