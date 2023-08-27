@@ -12,6 +12,7 @@ It is set up to use port 8080, but you can adjust as needed.
     - Express.js to create routes.
     - Request library for http functions.
 - proxy.js in its own folder in home dir.
+- blank proxy.log created or copied into same folder. ensure R/W permissions (chmod 600)
 
 1. **Install node and npm**
 ```
