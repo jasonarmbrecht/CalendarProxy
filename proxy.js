@@ -53,6 +53,7 @@ app.use('/proxy/*', (req, res) => {
     res.status(403).send('Access forbidden');
   }
 });
+
 // start the proxy
 app.listen(PORT, () => {
   console.log(`Proxy server is running on port ${PORT}`);
