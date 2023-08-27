@@ -18,7 +18,8 @@ function getACSTTimestamp() {
 
 // shorten URL for terminal output
 function shortenUrl(url) {
-    const firstCharacters = url.slice(0, 5);
+    const afterHttps = url.match(/https:\/\/(.{5})/);
+    const firstCharacters = afterHttps ? afterHttps[1] : '';
     const lastCharacters = url.slice(-5);
     return `${firstCharacters}...${lastCharacters}`;
   }
