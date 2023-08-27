@@ -18,9 +18,9 @@ function getACSTTimestamp() {
 
 // shorten URL for terminal output
 function shortenUrl(url) {
-    const domain = 'airmaestro';
+    const firstCharacters = url.slice(0, 5);
     const lastCharacters = url.slice(-5);
-    return `${domain}...${lastCharacters}`;
+    return `${firstCharacters}...${lastCharacters}`;
   }
 
 // log IP addresses
